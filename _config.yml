@@ -1,12 +1,12 @@
 title: Gustavo Santelices N.
 email: gsantelicesn2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+  Something
 baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://qwagperson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: QwagPerson
 github_username:  QwagPerson
 
-show_downloads: false
 google_analytics: G-9Z0RM8HBZR
 
 # Build settings
