@@ -7,8 +7,6 @@ url: "https://qwagperson.github.io" # the base hostname & protocol for your site
 twitter_username: QwagPerson
 github_username:  QwagPerson
 
-google_analytics: G-9Z0RM8HBZR
-
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
