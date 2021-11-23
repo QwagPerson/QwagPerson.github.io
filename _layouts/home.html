@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/homeStyle.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+<body id="background">
+
+<div id="mySidenav" class="sidenav">
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+</div>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right }
+(not used if you only want the sidenav to sit on top of the page -->
+
+<div id="main">
+
+<div id="title-body">
+    <h1 id="title-text">
+        {{page.title}}
+    </h1>
+</div>
+
+<div class="post-body">
+    {{content}}
+</div>
+
+</div>
+
+<script>
+    let navbar_open = false;
+
+    function myFunction(x) {
+        x.classList.toggle("change");
+        if (navbar_open) {
+            closeNav();
+            navbar_open = false;
+        }
+        else {
+            openNav();
+            navbar_open = true;
+        }
+    }
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "10%";
+        var a = document.getElementById('mySidenav').getElementsByTagName('a');
+        for (var i = 0; i < a.length; i++) {
+            a[i].style.display = "block"
+        }
+        document.getElementById("main").style.marginLeft = "10%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "4%";
+        var a = document.getElementById('mySidenav').getElementsByTagName('a');
+        for (var i = 0; i < a.length; i++) {
+            a[i].style.display = "none"
+        }
+        document.getElementById("main").style.marginLeft = "4%";
+    }
+</script>
+
+
+</body>
+
+</html>
+

@@ -1,9 +1,7 @@
 title: Gustavo Santelices N.
 email: gsantelicesn2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Something
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  A student page thought to be used as a fun way to present himself.
 twitter_username: QwagPerson
 github_username:  QwagPerson
 
@@ -13,6 +11,10 @@ theme: jekyll-theme-cayman
 show_downloads: false
 google_analytics: UA-213536068-1
 
+twitter: https://twitter.com/
+facebook: https://facebook.com/
+instagram: https://instagram.com/
+show_socials: true
 
 plugins:
   - jekyll-feed

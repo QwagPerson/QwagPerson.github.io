@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: presentation
 title: "About me"
+description: "Something interesting"
 permalink: /about/
 ---
 
